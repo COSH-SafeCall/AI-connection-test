@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "SafeCall Live",
+    "slug": "safecall-live",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "SafeCall uses the microphone for your live Gemini conversation."
+      }
+    },
+    "android": {
+      "permissions": ["RECORD_AUDIO"],
+      "package": "com.safecall.live"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": ["expo-audio"]
+  }
+}
